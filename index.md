@@ -1,5 +1,4 @@
 ---
-layout: null
 title: Blogging Like a Hacker
 ---
 
