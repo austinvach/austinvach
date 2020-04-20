@@ -1,6 +1,6 @@
 ---
-title: Blogging Like a Hacker
+title: Austin Vach
 ---
 
-# Austin Vach
+[//]: # Austin Vach
 I'm all over the place.
