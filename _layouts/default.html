@@ -2,13 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="https://use.typekit.net/wtq4wci.css">
+    <link rel="stylesheet" href="/css/boilerplate.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="{{ site.baseurl }}/media/favicon.png" type="image/png" />
+    <script type="text/javascript" src="respond.min.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript">
+        function changeColor(){
+            var randomColor = Math.floor(Math.random()*16777215).toString(16);
+        document.body.style.backgroundColor = '#' + randomColor;}
+    </script>
   </head>
-  <body>
-    <h1>{{ page.title }}</h1>
-    <section>
-      {{ content }}
-    </section>
+  <body onload="changeColor1();">
+    <div class="gridContainer clearfix">
+        <h1 class="title">{{ page.title }}</h1>
+        <p class="subtitle">{{ content }}</p>
+        <ul class="fluid fluidList social">
+            <li class="social" id="twitter"><a href="https://twitter.com/austinvach"><img src="transparent.png" alt="Twitter"></a></li>
+            <li class="social" id="linkedIn"><a href="http://www.linkedin.com/in/austinvach/"><img src="transparent.png" alt="LinkedIn"></a></li>
+            <li class="social" id="facebook"><a href="https://www.facebook.com/austinvach"><img src="transparent.png" alt="Facebook"></a></li>
+            <li class="social" id="instagram"><a href="http://instagram.com/austinvach"><img src="transparent.png" alt="Instagram"></a></li>
+        </ul>
+    </div>
   </body>
 </html>

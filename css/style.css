@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.fluidList {
+	list-style: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Mobile Layout: 480px and below. */
+  
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 86.45%;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+	clear: none;
+	float: none;
+}
+
+.title {
+	font-size: 5em;
+	margin-bottom: 1px;
+	line-height: 1em;
+	margin-top: 50px;
+	font-family: "proxima-nova-condensed",sans-serif;
+	text-transform:uppercase;
+}
+
+.subtitle {
+	text-align: center;
+	font-size:18px;
+	margin-top:0px;
+}
+
+.social ul{
+	width:300px;
+	height:60px;
+}
+
+.social li{
+	display:inline-block;
+	width:60px;
+	height:60px;
+	margin:0 2px;
+}
+
+.social li a{
+	display:block;
+	width:60px;
+	height:60px;
+}
+
+.zeroMargin_mobile{
+    margin-left: 0;
+}
+
+.hide_mobile{
+    display: none;
+}
+
+#twitter a {
+	background:url('/media/socialsprite.png') 0 -60px;
+}
+
+#twitter a:hover{
+	background:url('/media/socialsprite.png') 0 0px;
+}
+
+#linkedIn a{
+	background:url('/media/socialsprite.png') -60px -60px;
+}
+
+#linkedIn a:hover{
+	background: url('/media/socialsprite.png') -60px 0px;
+}
+
+#facebook a{
+	background:url('/media/socialsprite.png') -120px -60px;
+}
+
+#facebook a:hover{
+	background: url('/media/socialsprite.png') -120px 0px;
+}
+
+#instagram a{
+	background:url('/media/socialsprite.png') -180px -60px;
+}
+
+#instagram a:hover{
+	background: url('/media/socialsprite.png') -180px 0px;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+    .gridContainer {
+        width: 90.675%;
+        padding-left: 1.1625%;
+        padding-right: 1.1625%;
+        clear: none;
+        float: none;
+        margin: auto;
+        display: block;
+    }
+
+    .title {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        line-height: 1em;
+    }
+
+    .hide_tablet {
+        display: none;
+    }
+
+    .zeroMargin_tablet {
+        margin-left: 0;
+    }
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+    .gridContainer {
+        width: 88.5%;
+        max-width: 1232px;
+        padding-left: 0.75%;
+        padding-right: 0.75%;
+        margin: auto;
+        clear: none;
+        float: none;
+        margin-left: auto;
+    }
+    .title {
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1em;
+        margin-top: 200px;
+    }
+    .zeroMargin_desktop {
+        margin-left: 0;
+    }
+    .hide_desktop {
+        display: none;
+    }
+
+}
