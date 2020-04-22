@@ -14,9 +14,8 @@
   <body>
     <!-- Adding the color change script here to eliminate the white flicker. -->
     <script type="text/javascript">
-      function changeColor(){
-          var randomColor = Math.floor(Math.random()*16777215).toString(16);
-      document.body.style.backgroundColor = '#' + randomColor;}
+      var randomColor = Math.floor(Math.random()*16777215).toString(16);
+      document.body.style.backgroundColor = '#' + randomColor;
     </script>
     <div class="gridContainer clearfix">
         <h1 class="title">{{ page.title }}</h1>
