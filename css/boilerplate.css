@@ -7,7 +7,7 @@
  * Kroc Camen, and the H5BP dev community and team.
  *
  * Detailed information about this CSS: h5bp.com/css
- * 
+ *
  * Dreamweaver modifications:
  * 1. Commented out selection highlight
  * 2. Removed media queries section (we add our own in a separate file)
@@ -48,7 +48,7 @@ body {
 	text-align: center;
 }
 
-/* 
+/*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate
  * Also: hot pink! (or customize the background color to match your design)
@@ -218,7 +218,7 @@ input:invalid, textarea:invalid { background-color: #f0dddd; }
 /* =============================================================================
    Tables
    ========================================================================== */
-/* 
+/*
  * 'border-collapse: collapse;' needs to be overridden in designs having tables with rounded corners and drop shadows.
 */
 table { border-collapse: collapse; border-spacing: 0; }
