@@ -38,10 +38,6 @@ img, object, embed, video {
     font-style: normal;
     margin-top: 50px;
     margin-bottom: 0px;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     line-height: 1em;
     height: 1em;
 	text-transform:uppercase;
