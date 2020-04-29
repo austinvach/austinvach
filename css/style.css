@@ -46,7 +46,8 @@ img, object, embed, video {
 .subtitle {
 	text-align: center;
 	font-size:18px;
-	margin-top:0px;
+    margin-top:0px;
+    margin-bottom:20px;
 }
 
 .social ul{
