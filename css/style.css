@@ -76,36 +76,44 @@ img, object, embed, video {
     display: none;
 }
 
-#twitter a {
-	background:url('/media/socialsprite.png') 0 -60px;
-}
-
-#twitter a:hover{
+#facebook a {
 	background:url('/media/socialsprite.png') 0 0px;
 }
 
-#linkedIn a{
-	background:url('/media/socialsprite.png') -60px -60px;
-}
-
-#linkedIn a:hover{
-	background: url('/media/socialsprite.png') -60px 0px;
-}
-
-#facebook a{
-	background:url('/media/socialsprite.png') -120px -60px;
-}
-
 #facebook a:hover{
-	background: url('/media/socialsprite.png') -120px 0px;
+	background:url('/media/socialsprite.png') 0 -60px;
 }
 
 #instagram a{
-	background:url('/media/socialsprite.png') -180px -60px;
+	background:url('/media/socialsprite.png') -60px 0px;
 }
 
 #instagram a:hover{
-	background: url('/media/socialsprite.png') -180px 0px;
+	background: url('/media/socialsprite.png') -60px -60px;
+}
+
+#linkedin a{
+	background:url('/media/socialsprite.png') -120px 0px;
+}
+
+#linkedin a:hover{
+	background: url('/media/socialsprite.png') -120px -60px;
+}
+
+#twitter a{
+	background:url('/media/socialsprite.png') -180px 0px;
+}
+
+#twitter a:hover{
+	background: url('/media/socialsprite.png') -180px -60px;
+}
+
+#youtube a{
+	background:url('/media/socialsprite.png') -240px 0px;
+}
+
+#youtube a:hover{
+	background: url('/media/socialsprite.png') -240px -60px;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
