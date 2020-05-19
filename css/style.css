@@ -38,8 +38,8 @@ img, object, embed, video {
     font-style: normal;
     margin-top: 50px;
     margin-bottom: 0px;
-    /* line-height: 1em; */
-    height: 1em;
+    line-height: 1em;
+    /* height: 1em; */
 	text-transform:uppercase;
 }
 
