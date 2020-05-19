@@ -38,7 +38,7 @@ img, object, embed, video {
     font-style: normal;
     margin-top: 50px;
     margin-bottom: 0px;
-    line-height: 1em;
+    /* line-height: 1em; */
     height: 1em;
 	text-transform:uppercase;
 }
@@ -134,7 +134,6 @@ img, object, embed, video {
         margin-left: auto;
         margin-right: auto;
         margin-top: 100px;
-        /* line-height: 1em; */
     }
 
     .hide_tablet {
@@ -164,7 +163,6 @@ img, object, embed, video {
     .title {
         margin-left: auto;
         margin-right: auto;
-        line-height: 1em;
         margin-top: 200px;
     }
     .zeroMargin_desktop {
