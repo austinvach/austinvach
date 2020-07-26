@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style type="text/css">
+            @keyframes fadeOut {
+                0%, 50% {
+                    opacity: 100%; 
+                }
+                100% {
+                    opacity: 0%;
+                }
+            }
+            @keyframes fadeIn {
+                0%, 50% {
+                    opacity: 0%; 
+                }
+                100% {
+                    opacity: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <video autoplay width="800" style="position: absolute;">
+            <source src="https://vokrox.s3-us-west-2.amazonaws.com/1+-+Intro.mp4" type="video/mp4">
+        </video>
+        <video autoplay loop width="800" style="animation-duration: 10s;
+        animation-name: fadeIn; position: absolute;">
+            <source src="https://vokrox.s3-us-west-2.amazonaws.com/3+-+Series+Title.mp4" type="video/mp4">
+        </video>
+
+        <!-- <video autoplay width="250" style="opacity: 0.3;">
+            <source src="https://vokrox.s3-us-west-2.amazonaws.com/2+-+Outro.mp4" type="video/mp4">
+        </video> -->
+    </body>
+</html>
