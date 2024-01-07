@@ -36,10 +36,9 @@ img, object, embed, video {
     font-family: proxima-nova-condensed, sans-serif;
     font-weight: 800;
     font-style: normal;
-    margin-top: 50px;
+    margin-top: min(15vh, 200px);
     margin-bottom: 0px;
     line-height: 1em;
-    /* height: 1em; */
 	text-transform:uppercase;
 }
 
@@ -133,7 +132,6 @@ img, object, embed, video {
     .title {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 100px;
     }
 
     .hide_tablet {
@@ -163,7 +161,6 @@ img, object, embed, video {
     .title {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 200px;
     }
     .zeroMargin_desktop {
         margin-left: 0;
