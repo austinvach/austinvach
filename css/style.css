@@ -1,172 +1,74 @@
-@charset "utf-8";
-
-img, object, embed, video {
-	max-width: 100%;
-}
-
-.fluid {
-	clear: both;
-	margin-left: 0;
-	width: 100%;
-	float: left;
-	display: block;
-}
-
-.fluidList {
-	list-style: none;
-	list-style-image: none;
-	margin: 0;
-	padding: 0;
-}
-
-/* Mobile Layout: 480px and below. */
-
-.gridContainer {
-	margin-left: auto;
-	margin-right: auto;
-	width: 86.45%;
-	padding-left: 2.275%;
-	padding-right: 2.275%;
-	clear: none;
-	float: none;
+body {
+    font-family: Segoe, "Segoe UI", Verdana, sans-serif;
+    text-align: center;
 }
 
 .title {
+    margin-top: min(15vh, 200px);
     font-size: 5em;
-    font-family: proxima-nova-condensed, sans-serif;
+    font-family: proxima-nova-condensed;
     font-weight: 800;
     font-style: normal;
     margin-top: min(15vh, 200px);
     margin-bottom: 0px;
     line-height: 1em;
-	text-transform:uppercase;
+    text-transform: uppercase;
 }
 
 .subtitle {
-	text-align: center;
-	font-size:18px;
-    margin-top:0px;
-    margin-bottom:20px;
+    font-size: 18px;
+    margin-top: 4px;
 }
 
-.social ul{
-	width:300px;
-	height:60px;
+ul {
+    list-style-type: none;
+    padding: 0px;
 }
 
-.social li{
-	display:inline-block;
-	width:60px;
-	height:60px;
-	margin:0 2px;
+a {
+    text-decoration: none;
 }
 
-.social li a{
-	display:block;
-	width:60px;
-	height:60px;
+li {
+    display: inline;
+    padding: 0 2px;
 }
 
-.zeroMargin_mobile{
-    margin-left: 0;
+svg {
+    height: 60px;
+    width: 60px;
 }
 
-.hide_mobile{
-    display: none;
+#facebook :hover{
+    /* Brand Guidelines: https://about.meta.com/brand/resources/facebook/logo */
+    fill: #0866FF;
 }
 
-#facebook a {
-	background:url('/media/socialsprite.png') 0 0px;
+#github :hover{
+    /* Brand Guidelines: https://github.com/logos */
+    fill: #24292F;
 }
 
-#facebook a:hover{
-	background:url('/media/socialsprite.png') 0 -60px;
+#instagram :hover{
+    /* Brand Guidelines: https://about.instagram.com/brand/gradient */
+    fill: #FF0069;
 }
 
-#instagram a{
-	background:url('/media/socialsprite.png') -60px 0px;
+#linkedin :hover{
+    /* Brand Guidelines: https://brand.linkedin.com/content/brand/global/en_us/index/visual-identity/color-palettes */
+    fill: #0077B5;
 }
 
-#instagram a:hover{
-	background: url('/media/socialsprite.png') -60px -60px;
+#nostr :hover{
+    fill: purple;
 }
 
-#linkedIn a{
-	background:url('/media/socialsprite.png') -120px 0px;
-}
+/* #x :hover{
+    Brand Guidelines: https://about.twitter.com/en/who-we-are/brand-toolkit
+    Brand color is full black so no need to change it on hover.
+} */
 
-#linkedIn a:hover{
-	background: url('/media/socialsprite.png') -120px -60px;
-}
-
-#twitter a{
-	background:url('/media/socialsprite.png') -180px 0px;
-}
-
-#twitter a:hover{
-	background: url('/media/socialsprite.png') -180px -60px;
-}
-
-#youtube a{
-	background:url('/media/socialsprite.png') -240px 0px;
-}
-
-#youtube a:hover{
-	background: url('/media/socialsprite.png') -240px -60px;
-}
-
-/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
-
-@media only screen and (min-width: 481px) {
-
-    .gridContainer {
-        width: 90.675%;
-        padding-left: 1.1625%;
-        padding-right: 1.1625%;
-        clear: none;
-        float: none;
-        margin: auto;
-        display: block;
-    }
-
-    .title {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .hide_tablet {
-        display: none;
-    }
-
-    .zeroMargin_tablet {
-        margin-left: 0;
-    }
-
-}
-
-/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
-
-@media only screen and (min-width: 769px) {
-
-    .gridContainer {
-        width: 88.5%;
-        max-width: 1232px;
-        padding-left: 0.75%;
-        padding-right: 0.75%;
-        margin: auto;
-        clear: none;
-        float: none;
-        margin-left: auto;
-    }
-    .title {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .zeroMargin_desktop {
-        margin-left: 0;
-    }
-    .hide_desktop {
-        display: none;
-    }
-
+#youtube :hover{
+    /* Brand Guidelines: https://www.youtube.com/howyoutubeworks/resources/brand-resources/#logos-icons-and-colors */
+    fill:#FF0000;
 }
