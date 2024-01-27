@@ -3,7 +3,7 @@ body {
     text-align: center;
 }
 
-.title {
+#title {
     margin-top: min(15vh, 200px);
     font-size: 5em;
     font-family: proxima-nova-condensed;
@@ -15,7 +15,7 @@ body {
     text-transform: uppercase;
 }
 
-.subtitle {
+#subtitle {
     font-size: 18px;
     margin-top: 4px;
 }
@@ -44,7 +44,7 @@ svg {
     fill: #0866FF;
 }
 
-#github :hover{
+#github :hover {
     /* Brand Guidelines: https://github.com/logos */
     fill: #24292F;
 }
@@ -60,12 +60,12 @@ svg {
 }
 
 #nostr :hover{
-    fill: purple;
+    fill: #800080;
 }
 
 /* #x :hover{
     Brand Guidelines: https://about.twitter.com/en/who-we-are/brand-toolkit
-    Brand color is full black so no need to change it on hover.
+    fill: #000000; Brand color is full black so no need to change it on hover.
 } */
 
 #youtube :hover{
