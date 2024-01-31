@@ -39,37 +39,43 @@ svg {
     width: 60px;
 }
 
-#facebook :hover{
+#facebook :hover path{
     /* Brand Guidelines: https://about.meta.com/brand/resources/facebook/logo */
     fill: #0866FF;
 }
 
-#github :hover {
+#github :hover path{
     /* Brand Guidelines: https://github.com/logos */
     fill: #24292F;
 }
 
-#instagram :hover{
+#instagram :hover path{
     /* Brand Guidelines: https://about.instagram.com/brand/gradient */
     fill: #FF0069;
 }
 
-#linkedin :hover{
+#linkedin :hover path{
     /* Brand Guidelines: https://brand.linkedin.com/content/brand/global/en_us/index/visual-identity/color-palettes */
     fill: #0077B5;
 }
 
-#nostr :hover{
+#nostr :hover path{
     fill: #800080;
 }
 
-#x :hover{
+#x :hover path {
     /* Brand Guidelines: https://about.twitter.com/en/who-we-are/brand-toolkit */
     /* Brand color is full black but to keep it from disappearing in dark mode I gave it *some* white. */
-    fill: #111111; 
+    fill: #222222; 
 }
 
-#youtube :hover{
+#x :hover polygon {
+    /* Brand Guidelines: https://about.twitter.com/en/who-we-are/brand-toolkit */
+    /* Brand color is full black but to keep it from disappearing in dark mode I gave it the same as GitHub. */
+    fill: #24292F; 
+}
+
+#youtube :hover path{
     /* Brand Guidelines: https://www.youtube.com/howyoutubeworks/resources/brand-resources/#logos-icons-and-colors */
     fill:#FF0000;
 }
