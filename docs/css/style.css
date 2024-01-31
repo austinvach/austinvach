@@ -72,3 +72,23 @@ svg {
     /* Brand Guidelines: https://www.youtube.com/howyoutubeworks/resources/brand-resources/#logos-icons-and-colors */
     fill:#FF0000;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color:#FFFFFF;
+        background-color: #000000;
+    }
+    path, polygon{
+        fill: #FFFFFF;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        color:#000000;
+        background-color: #FFFFFF;
+    }
+    path, polygon{
+        fill: #000000;
+    }
+}
