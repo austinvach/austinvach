@@ -63,10 +63,11 @@ svg {
     fill: #800080;
 }
 
-/* #x :hover{
-    Brand Guidelines: https://about.twitter.com/en/who-we-are/brand-toolkit
-    fill: #000000; Brand color is full black so no need to change it on hover.
-} */
+#x :hover{
+    /* Brand Guidelines: https://about.twitter.com/en/who-we-are/brand-toolkit */
+    /* Brand color is full black but to keep it from disappearing in dark mode I gave it *some* white. */
+    fill: #111111; 
+}
 
 #youtube :hover{
     /* Brand Guidelines: https://www.youtube.com/howyoutubeworks/resources/brand-resources/#logos-icons-and-colors */
