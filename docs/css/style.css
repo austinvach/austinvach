@@ -74,7 +74,7 @@ svg {
 }
 
 @media (prefers-color-scheme: dark) {
-    body {
+    html {
         color:#FFFFFF;
         background-color: #000000;
     }
@@ -84,7 +84,7 @@ svg {
 }
 
 @media (prefers-color-scheme: light) {
-    body {
+    html {
         color:#000000;
         background-color: #FFFFFF;
     }
